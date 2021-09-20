@@ -1,5 +1,5 @@
 // Only change code below this line
-   var dress = "little dress";
+var dress = "little dress";
 function myDress() {
     dress = "ball gown";
 
@@ -7,7 +7,7 @@ function myDress() {
 return dress;
 }
 // Only change code below this line
-
+myDress();
 // Only change code above this line
 console.log(dress);
 
