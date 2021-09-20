@@ -1,10 +1,9 @@
 // Only change code below this line
   function localScope() {
       var myVariable = "I am here!";
-      console.log(myVariable);
+      console.log("localScope: " + myVariable);
   }
   localScope();
-  console.log(myVariable);
 // Only change code above this line
 
 // myVariable is not defined outside od localScope
