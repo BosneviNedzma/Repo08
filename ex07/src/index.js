@@ -1,15 +1,16 @@
 // Only change code below this line
 var sum = 0;
 function addThree() {
-    addThree = sum + 3;  
-    console.log("addThree: " + addThree);
+     sum + 3;  
+    console.log("addThree: " + sum);
 }
  addThree(3);
  function addFive() {
-     addFive = sum + 5;
-     console.log("addFive: " + addFive);
+      sum + 5;
+     console.log("addFive: " + sum);
  }
- addFive(8);
+ addFive();
+addThree();
 // Only change code above this line
 module.exports = {
     addThree,
