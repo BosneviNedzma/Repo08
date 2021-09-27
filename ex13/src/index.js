@@ -2,8 +2,8 @@ const randomInteger = require("../../ex12/src");
 
 // Only change code below this line
    function randomRangeNumber (minNumber, maxNumber) {
-       Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
-      return Math.random;
+      return Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
+      
    }
    
     console.log(randomRangeNumber());
